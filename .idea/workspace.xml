@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b49585e-fb03-438a-9765-2aaf9a15740a" name="Changes" comment="Criação do projeto e teste inicial de tela">
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/deletar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/editar.png" afterDir="false" />
+    <list default="true" id="1b49585e-fb03-438a-9765-2aaf9a15740a" name="Changes" comment="Criação de telas, botões de ação e funções de Novo Item e Editar Item">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -103,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729968585701</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Criação de telas, botões de ação e funções de Novo Item e Editar Item">
+      <option name="closed" value="true" />
+      <created>1729980325230</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729980325230</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criação do projeto e teste inicial de tela" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação do projeto e teste inicial de tela" />
+    <MESSAGE value="Criação de telas, botões de ação e funções de Novo Item e Editar Item" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação de telas, botões de ação e funções de Novo Item e Editar Item" />
   </component>
 </project>

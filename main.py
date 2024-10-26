@@ -59,6 +59,29 @@ def prepararEdicao(frame_tarefa, label_tarefa):
     input_tarefa.delete(0, tk.END) # limpando o input do começo ao fim
     input_tarefa.insert(0, label_tarefa.cget("text"))
 
+# funcao para atualização:
+def atualizarTarefa(novo_texto):
+    global frame_em_edicao
+    for item in frame_em_edicao.winfo_children():
+        if isinstance(item, tk.Label):
+            item.config(text=novo_texto)
+            input_tarefa.delete(0, tk.END) # limpando o input após salvar edicao
+
+# funcao para remover item da lista
+def deletarTarefa(frame):
+    frame.destroy()
+    canvas_interior.update_idletasks()
+    canvas.config(scrollregion=canvas.bbox("all"))
+
+# funcao para aplicar traço no item selecionado
+def aplicarTracejado(label):
+    fonte_atual = label.cget("font")
+    if "overstrike" in fonte_atual:
+        nova_fonte = fonte_atual.replace(" overstrike", "")
+    else:
+        nova_fonte = fonte_atual + " overstrike"
+    label.config(font=nova_fonte)
+
 # demais configurações de layout:
 fonte_cabecalho = font.Font(family="Garamond", size=24, weight="bold")
 label_cabecalho = tk.Label(janela, text="Meu App de Tarefas", font=fonte_cabecalho, bg="#F0F0F0", fg="#333").pack(pady=20)
