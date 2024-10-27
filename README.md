@@ -3,6 +3,7 @@
 ### Necessários: PyCharm
 
 Aplicação Python com interface gráfica. Com uso de estruturas de repetição, decisão, funções e mais recursos de linguagem.
+Desenvolvido para explorar as funcionalidades visuais
 
 ### Informações Adicionais
 
