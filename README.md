@@ -8,3 +8,7 @@ Desenvolvido para explorar as funcionalidades visuais
 ### Informações Adicionais
 
 O código está comentado para facilitar o entendimento da aplicação.
+
+### Resultado final
+
+![image](https://github.com/user-attachments/assets/6ab36868-a9fb-4001-ba6e-2d9ed9839deb)
